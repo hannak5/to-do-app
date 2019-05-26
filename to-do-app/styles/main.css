@@ -1,0 +1,40 @@
+header {
+  height: 100;
+  justify-content: center;
+  text-align: left;
+  padding-left: 5em;
+}
+
+.toDoList{
+  color: #8B008B;
+}
+
+h1 {
+  color: #8B008B;
+  font-weight: light;
+}
+
+.list {
+  padding-left: 50px;
+  max-width: 900px;
+}
+
+.addButton {
+  background-color: #D8BFD8;
+  color: #000000;
+  transparent;
+}
+
+.bar{
+  width:auto;
+}
+
+.mdl-layout__header{
+  background-color: #8B008B;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header{
+    display: flex;
+  }
+}

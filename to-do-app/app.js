@@ -38,18 +38,10 @@ function onReady(){
     newToDoText.value = "";
 
   });
-
-
-addToDoForm.addEventListener('delete', () => {
-    event.preventDefault();
-
-    newLi.value = "";
-
-  });
-
 };
 
+
 window.onload = function() {
-  alert("The window has loaded!");
+  //alert("The window has loaded!");
   onReady();
 };
